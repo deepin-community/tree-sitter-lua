@@ -1,5 +1,12 @@
-template-repository (1.0-1) unstable; urgency=medium
+tree-sitter-lua (0.0.18-2) unstable; urgency=medium
 
-  * Initial release
+  * Upload to unstable
+  * Add comment about provenance of src/tree_sitter/parser.h
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- James McCoy <jamessan@debian.org>  Thu, 25 Jan 2024 07:54:57 -0500
+
+tree-sitter-lua (0.0.18-1) experimental; urgency=medium
+
+  * Initial debianization. (Closes: #1034075)
+
+ -- James McCoy <jamessan@debian.org>  Fri, 06 Oct 2023 19:10:37 -0400
