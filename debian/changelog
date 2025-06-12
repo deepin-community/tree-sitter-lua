@@ -1,5 +1,41 @@
-template-repository (1.0-1) unstable; urgency=medium
+tree-sitter-lua (0.1.0-3) unstable; urgency=medium
 
-  * Initial release
+  * Add libc-dev and make to tree-sitter-src Depends
+  * Add cargo and rustc explicitly to Build-Depends
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- James McCoy <jamessan@debian.org>  Sun, 16 Mar 2025 22:15:15 -0400
+
+tree-sitter-lua (0.1.0-2) unstable; urgency=medium
+
+  * Upload to unstable
+  * d/clean: Add trailing slash to debian/.cache/
+  * Add librust-cc-dev to Build-Depends
+  * Revert "Switch debian branch to debian/experimental"
+  * Declare compliance with Policy 4.7.2, no changes needed
+
+ -- James McCoy <jamessan@debian.org>  Sat, 08 Mar 2025 14:02:22 -0500
+
+tree-sitter-lua (0.1.0-1) experimental; urgency=medium
+
+  * New upstream release
+  * Switch pkg-config Depends to pkgconf
+  * Adapt shared object build from C++ to C
+  * Include src/tree_sitter/ headers in the package
+  * Declare compliance with Policy 4.7.0, no changes needed
+  * Add libtree-sitter-lua-dev package
+  * Add salsa-ci.yml config
+
+ -- James McCoy <jamessan@debian.org>  Sat, 21 Dec 2024 12:34:21 -0500
+
+tree-sitter-lua (0.0.18-2) unstable; urgency=medium
+
+  * Upload to unstable
+  * Add comment about provenance of src/tree_sitter/parser.h
+
+ -- James McCoy <jamessan@debian.org>  Thu, 25 Jan 2024 07:54:57 -0500
+
+tree-sitter-lua (0.0.18-1) experimental; urgency=medium
+
+  * Initial debianization. (Closes: #1034075)
+
+ -- James McCoy <jamessan@debian.org>  Fri, 06 Oct 2023 19:10:37 -0400
